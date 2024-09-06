@@ -9,9 +9,6 @@
 }
 
 /* #region debug */
-.debug header{
-    background-color: lightblue;
-}
 
 .debug * {
     border: 1px dashed;
@@ -20,8 +17,12 @@
 /* #endregion debug */
 
 /* #region header*/
+header{
+    background-color: lightblue;
+    padding: 0.5rem;
+}
+
 header div{
-    margin: 0.5rem;
     background-color: orange;
     padding: 0.5rem;
 }
@@ -41,3 +42,41 @@ header div{
     width: 10%;
 }
 /* #endregion header*/
+
+/* #region main*/
+#bg-sec1{
+    background-color: blue;
+    height: 150px;
+    padding: 1rem;
+}
+
+#item-sec1{
+    background-color: violet;
+    height: 100%;
+    width: 50%;
+}
+
+
+
+
+
+#bg-sec2{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    padding: 1rem;
+}
+
+#item1-sec2{
+    background-color: rgb(88, 88, 255);
+    height: 100%;
+    width: 40%;
+}
+
+#item2-sec2{
+    background-color: pink;
+    height: 100%;
+    width: 20%;
+}
+
+
+/* #endregion main*/
