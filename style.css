@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* #region debug */
+.debug header{
+    background-color: lightblue;
+}
+
+.debug * {
+    border: 1px dashed;
+}
+
+/* #endregion debug */
+
+/* #region header*/
+header div{
+    margin: 0.5rem;
+    background-color: orange;
+    padding: 0.5rem;
+}
+
+#logo{
+    text-align: start;
+    width: 10%;
+}
+
+#link{
+    text-align: center;
+    width: 40%;
+}
+
+#login{
+    text-align: end;
+    width: 10%;
+}
+/* #endregion header*/
